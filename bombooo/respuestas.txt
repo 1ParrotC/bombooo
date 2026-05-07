@@ -1,0 +1,11 @@
+Apartado 1.1
+
+a) El símbolo '-' delante de los atributos indica que son privados (no accesibles desde fuera de la clase). El símbolo '+' delante de los métodos indica que son públicos (accesibles desde fuera de la clase).
+
+b) El atributo "disponible" es de tipo booleano (bool) y puede tomar dos valores: true o false.
+
+c) El método ToString() sirve para devolver una representación en forma de cadena del objeto. Se sobrescribe para proporcionar un formato legible al imprimir o depurar la instancia.
+
+Apartado 1.2
+
+Clase implementada en el fichero "Libro.cs" con los cuatro atributos privados, constructor con cuatro parámetros, propiedades públicas de lectura y ToString() que devuelve "Titulo - Autor (Anyo)".
