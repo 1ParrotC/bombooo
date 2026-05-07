@@ -17,6 +17,7 @@ while (true)
     Console.WriteLine("3) Cambiar disponibilidad");
     Console.WriteLine("4) Guardar");
     Console.WriteLine("5) Salir (guarda automáticamente)");
+    Console.WriteLine("6) Ejecutar Ejercicio 2 (separado)");
     Console.Write("Elige una opción: ");
     var opt = Console.ReadLine();
 
@@ -33,6 +34,10 @@ while (true)
             break;
         case "4":
             SaveLibrary(libros);
+            break;
+        case "6":
+            // Ejecuta la versión del ejercicio 2 implementada en Ejercicio2.cs
+            Ejercicio2.Ejecutar();
             break;
         case "5":
             SaveLibrary(libros);
